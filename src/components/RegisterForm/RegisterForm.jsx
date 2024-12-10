@@ -18,7 +18,7 @@ export const RegisterForm = () => {
 
     resetForm();
   };
-
+  // Code
   return (
     <Formik
       initialValues={{ name: "", email: "", password: "" }}
