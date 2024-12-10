@@ -1,0 +1,96 @@
+.form {
+  background-color: var(--background-form);
+  border-radius: 12px;
+  gap: 16px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.label {
+  display: flex;
+  justify-content: center;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.cntInput {
+  display: block;
+  margin: 0 auto;
+  padding: 8px 12px;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  font-size: 14px;
+  transition: border-color 0.2s;
+}
+
+.cntInput:focus {
+  border-color: var(--secondary-color); /* акцент на активное поле */
+  outline: none;
+}
+
+.checkboxContainer {
+  display: flex;
+  gap: 20px;
+}
+
+input[type="checkbox"] {
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  background-color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+}
+
+input[type="checkbox"]:checked {
+  background-color: var(--secondary-color);
+  border-color: var(--border-color);
+}
+
+/* Добавить иконку (галочку) для отмеченного состояния */
+input[type="checkbox"]:checked::after {
+  content: "✔"; /* Или заменить на SVG */
+  font-size: 16px;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.radioGroup {
+  display: flex;
+  gap: 8px; /* Отступ между заголовком и кнопками */
+}
+
+.radioGroup legend {
+  margin: 0 auto 8px;
+}
+
+.radioLabel {
+  margin-bottom: 8px;
+}
+
+.radioOptions {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.radioOptions label {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+input[type="radio"] {
+  appearance: none;
+}

@@ -1,0 +1,17 @@
+.btn {
+  display: block;
+  background-color: var(--secondary-color); /* синий акцентный цвет */
+  margin: 0 auto;
+  color: var(--text-secondary);
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.2s;
+
+  &:hover {
+    background-color: var(--accent-color); /* темнее при наведении */
+  }
+}

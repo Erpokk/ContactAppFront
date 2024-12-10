@@ -1,0 +1,29 @@
+.inpWrap {
+  padding: 50px 0;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.input {
+  width: 100%;
+  padding: 10px 40px 10px 10px; /* Отступ для размещения иконки */
+  font-size: 16px;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.3s ease;
+
+  &:focus {
+    border-color: var(--secondary-color);
+  }
+}
+
+.icon {
+  position: absolute;
+  right: 10px;
+  color: var(--border-color);
+  font-size: 18px;
+  pointer-events: none;
+  transition: color 0.3s ease;
+}

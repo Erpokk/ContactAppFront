@@ -1,0 +1,31 @@
+.form {
+  background-color: var(--background-form);
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+.label {
+  display: flex;
+  justify-content: center;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.lgnInput {
+  display: block;
+  margin: 0 auto 16px;
+  padding: 8px 12px;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  font-size: 14px;
+  transition: border-color 0.2s;
+}
+
+.lgnInput:focus {
+  border-color: var(--secondary-color); /* акцент на активное поле */
+  outline: none;
+}

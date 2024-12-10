@@ -1,0 +1,5 @@
+[
+    { "id": "facebook", "href": "https://www.facebook.com", "label": "Facebook" },
+    { "id": "instagram", "href": "https://www.instagram.com", "label": "Instagram" },
+    { "id": "youtube", "href": "https://www.youtube.com", "label": "YouTube" }
+  ]
