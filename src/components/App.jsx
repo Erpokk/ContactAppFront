@@ -9,7 +9,7 @@ import { Layout } from "./Layout.jsx";
 import { selectIsRefreshing } from "../redux/auth/selectors.js";
 
 import { refreshUser } from "../redux/auth/operations.js";
-import GoogleCallback from "./GoogleCallBack/GoogleCallback.jsx";
+import GoogleCallback from "./GoogleCallback/GoogleCallback.jsx";
 
 const HomePage = lazy(() => import("../pages/HomePage/HomePage"));
 const RegisterPage = lazy(() =>
