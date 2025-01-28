@@ -28,8 +28,8 @@ function App() {
 
   return isRefreshing ? (
     <h1>
-      Refreshing....FIRS RENDER ON BACKEND RENDER.COM ON FREE VERSION CANT DELAY
-      UP TO 50 SECNODS PLEASE WAIT
+      Refreshing....FIRST RENDER ON BACKEND RENDER.COM ON FREE VERSION CAN DELAY
+      UP TO 50 SECNODS, PLEASE WAIT
     </h1>
   ) : (
     <Layout>
