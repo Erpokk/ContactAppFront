@@ -27,7 +27,10 @@ function App() {
   }, [dispatch]);
 
   return isRefreshing ? (
-    <b>Refreshing....</b>
+    <h1>
+      Refreshing....FIRS RENDER ON BACKEND RENDER.COM ON FREE VERSION CANT DELAY
+      UP TO 50 SECNODS PLEASE WAIT
+    </h1>
   ) : (
     <Layout>
       <Routes>
